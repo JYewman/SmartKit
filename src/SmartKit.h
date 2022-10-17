@@ -37,7 +37,71 @@
 #define __PROG_TYPES_COMPAT__
 #endif
 
-#include "Arduino.h"
+#include <Arduino.h>
+
+// Checks for board type
+#if defined(ARDUINO_AVR_UNO)
+#include <Ethernet.h>
+#elif defined(ARDUINO_AVR_MEGA2560)
+#include <Ethernet.h>
+#elif defined(ARDUINO_AVR_UNO_WIFI_DEV_ED)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP32_DEV)
+#include <WiFi.h>
+#include <AsyncUDP.h>
+#elif defined(ARDUINO_ESP8266_ESP01)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_ESP13)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_ESP12)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_ESPRESSO_LITE_V1)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_ESPRESSO_LITE_V2)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_PHOENIX_V1)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_PHOENIX_V2)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_NODEMCU)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_MOD_WIFI_ESP8266)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_THING)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_THING_DEV)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_ESP210)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_WIFIO)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_WEMOS_D1MINI)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_WEMOS_D1MINIPRO)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_ESP8266_WEMOS_D1MINILITE)
+#include <WiFi.h>
+#endif
+#elif defined(ARDUINO_WIFINFO)
+#include <WiFi.h>
+#endif
+#endif
 
 class SmartKit
 {
