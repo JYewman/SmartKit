@@ -92,8 +92,6 @@
 class SmartKit
 {
 public:
-    SmartKit();
-
 private:
 };
 

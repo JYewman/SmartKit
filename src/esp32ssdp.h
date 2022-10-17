@@ -159,6 +159,3 @@ protected:
 #if !defined(NO_GLOBAL_INSTANCES) && !defined(NO_GLOBAL_SSDP)
 extern SSDPClass SSDP;
 #endif
-
-#endif
-#endif
