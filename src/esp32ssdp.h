@@ -1,3 +1,4 @@
+#pragma once
 #include "SmartKit.h"
 #include <Arduino.h>
 #include <WiFi.h>
