@@ -9,6 +9,10 @@
  * Modified By:
  * -----
  * Copyright (c) 2022 goSysten Solutions Limited
+ *
+ * SmartKit is a IoT platform that enables devices to connect, identify and communicate via LAN
+ * This library is designed for use with any arduino compatible device.
+ * When used with the ESP8266 or ESP32 this library includes the WiFiManager library for initializing WiFi communication
  */
 
 #ifndef SmartKit
@@ -37,6 +41,10 @@
 
 class SmartKit
 {
+public:
+    SmartKit();
+
+private:
 };
 
 #endif
