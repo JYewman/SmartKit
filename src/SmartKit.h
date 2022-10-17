@@ -50,6 +50,7 @@
 // ESP32
 #elif defined(ARDUINO_ESP32_DEV)
 #include <WiFi.h>
+#include <WiFiManager.h>
 #include <AsyncUDP.h>
 #include "esp32ssdp.h"
 // ESP8266
