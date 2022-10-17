@@ -356,11 +356,21 @@ void SSDPClass::_onPacket(AsyncUDPPacket &packet)
 #ifdef DEBUG_SSDP
             DEBUG_SSDP.println("not enough memory for the packet");
 #endif
+
+About
+No description, website, or topics provided.
+Resources
+Readme
+Stars
+2 stars
+Watchers
+3 watching
+Forks
+1 fork
             return;
         }
         int process_pos = 0;
-        strncpy(packetBuffer, (const char *)packet.data(), nbBytes);
-        packetBuffer[nbBytes] = '\0';
+        strlcpy(packetBuffer, (const char *)packet.data(), nbBytes);
         _respondToAddr = packet.remoteIP();
         _respondToPort = packet.remotePort();
 
