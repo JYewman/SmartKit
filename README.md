@@ -6,7 +6,7 @@
 
 ## About The Project
 
-SmartKit is a library that enables facilitates a standardised communication platform between IoT devices. This includes the discovery, identification and communication of IoT
+SmartKit is a library that facilitates a standardised communication platform between IoT devices. This includes the discovery, identification and communication of IoT
 devices on a LAN (Local Area Network)
 
 SmartKit works with any Ethernet or WiFi connected arduino compatible devices. To identify the IoT device on the network this library implements SSDP (Simple Service Discovery Protocol)(https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol). A REST API interface can then be constructed allowing communication with the device and control of
