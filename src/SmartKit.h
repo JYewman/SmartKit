@@ -39,7 +39,7 @@
 
 #include <Arduino.h>
 
-// Checks for board type
+// Identify the microcontroller that the code has been compiled for.
 // Arduino AVR
 #if defined(ARDUINO_AVR_UNO)
 #include <Ethernet.h>
