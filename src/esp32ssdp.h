@@ -1,4 +1,7 @@
 #include "SmartKit.h"
+#include <Arduino.h>
+#include <WiFi.h>
+#include <AsyncUDP.h>
 
 #define SSDP_UUID_SIZE 37
 #define SSDP_SCHEMA_URL_SIZE 64

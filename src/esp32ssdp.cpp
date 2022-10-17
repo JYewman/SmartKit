@@ -1,4 +1,5 @@
 #include "esp32ssdp.h"
+#include <AsyncUDP.h>
 
 #if defined(DEBUG_WITH_MARLIN)
 class FlushableHardwareSerial : public HardwareSerial
