@@ -115,7 +115,7 @@ class SmartKit
 public:
     SmartKit();
     boolean init();
-    boolean start();
+    void start();
     boolean getError();
 
 private:
