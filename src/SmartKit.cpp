@@ -11,5 +11,9 @@
  * Copyright (c) 2022 goSysten Solutions Limited
  */
 
+// TODO: Figure out how to init based on the board defined in headder
 #define SMARTKIT_INTERNAL
 #include "SmartKit.h"
+boolean SmartKit::init()
+{
+}
