@@ -90,6 +90,10 @@
 class SmartKit
 {
 public:
+    SmartKit();
+    boolean init();
+    boolean start();
+    boolean getError();
+
 private:
 };
-
