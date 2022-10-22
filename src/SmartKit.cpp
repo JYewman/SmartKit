@@ -20,7 +20,7 @@ boolean SmartKit::init()
 {
     if (boardID == 99)
     {
-        return true;
+        return false;
     }
     return false;
 }
