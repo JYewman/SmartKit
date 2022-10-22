@@ -40,20 +40,20 @@
 // Arduino AVR
 #if defined(ARDUINO_AVR_UNO)
 #include <Ethernet.h>
-#const int board 0
+const int boardID = 0
 #elif defined(ARDUINO_AVR_MEGA2560)
 #include <Ethernet.h>
-#const int board 1
+const int boardID = 1
 #elif defined(ARDUINO_AVR_UNO_WIFI_DEV_ED)
 #include <WiFi.h>
-#const int board 2
+const int boardID = 2
 // ESP32
 #elif defined(ARDUINO_ESP32_DEV)
 #include <WiFi.h>
 #include <WiFiManager.h>
 #include <AsyncUDP.h>
 #include "esp32ssdp.h"
-#const int board 3
+const int boardID = 3
 // ESP8266
 #elif defined(ARDUINO_ESP8266_ESP01)
 #include <WiFi.h>
@@ -91,7 +91,7 @@
 #include <WiFi.h>
 #endif
 
-class SmartKit
+    class SmartKit
 {
 public:
     SmartKit();
