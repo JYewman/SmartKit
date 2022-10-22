@@ -14,7 +14,13 @@
 // TODO: Figure out how to init based on the board defined in headder
 #define SMARTKIT_INTERNAL
 #include "SmartKit.h"
+#include <Arduino.h>
+
 boolean SmartKit::init()
 {
+    if (boardID == 99)
+    {
+        return true;
+    }
     return false;
 }
