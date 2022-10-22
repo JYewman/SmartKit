@@ -24,15 +24,15 @@ boolean SmartKit::init()
     }
     else if (boardID <= 2) // If the board is an Arudino AVR
     {
-        /* code */
+        return true;
     }
     else if (boardID == 3) // If the board is an ESP32
     {
-        /* code */
+        return true;
     }
     else if (boardID <= 20) // If the board is an ESP8266
     {
-        /* code */
+        return true;
     }
 
     return false;
