@@ -14,10 +14,7 @@
  * This library is designed for use with any arduino compatible device.
  * When used with the ESP8266 or ESP32 this library includes the WiFiManager library for initializing WiFi communication
  */
-
-#ifndef SmartKit
-#define SmartKit
-
+#pragma once
 #if (__GNUC__ > 4) || (__GNUC__ == 4 && __GNUC_MINOR__ >= 4)
 #define SMARTKIT_HAS_PRAGMA_MESSAGE
 #endif
@@ -96,4 +93,3 @@ public:
 private:
 };
 
-#endif
