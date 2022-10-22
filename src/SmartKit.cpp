@@ -16,4 +16,5 @@
 #include "SmartKit.h"
 boolean SmartKit::init()
 {
+    return false;
 }
