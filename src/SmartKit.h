@@ -57,38 +57,55 @@ const int boardID = 3
 // ESP8266
 #elif defined(ARDUINO_ESP8266_ESP01)
 #include <WiFi.h>
+const int boardID = 4
 #elif defined(ARDUINO_ESP8266_ESP13)
 #include <WiFi.h>
+const int boardID = 5
 #elif defined(ARDUINO_ESP8266_ESP12)
 #include <WiFi.h>
+const int boardID = 6
 #elif defined(ARDUINO_ESP8266_ESPRESSO_LITE_V1)
 #include <WiFi.h>
+const int boardID = 7
 #elif defined(ARDUINO_ESP8266_ESPRESSO_LITE_V2)
 #include <WiFi.h>
+const int boardID = 8
 #elif defined(ARDUINO_ESP8266_PHOENIX_V1)
 #include <WiFi.h>
+const int boardID = 9
 #elif defined(ARDUINO_ESP8266_PHOENIX_V2)
 #include <WiFi.h>
+const int boardID = 10
 #elif defined(ARDUINO_ESP8266_NODEMCU)
 #include <WiFi.h>
+const int boardID = 11
 #elif defined(ARDUINO_MOD_WIFI_ESP8266)
 #include <WiFi.h>
+const int boardID = 12
 #elif defined(ARDUINO_ESP8266_THING)
 #include <WiFi.h>
+const int boardID = 13
 #elif defined(ARDUINO_ESP8266_THING_DEV)
 #include <WiFi.h>
+const int boardID = 14
 #elif defined(ARDUINO_ESP8266_ESP210)
 #include <WiFi.h>
+const int boardID = 15
 #elif defined(ARDUINO_ESP8266_WIFIO)
 #include <WiFi.h>
+const int boardID = 16
 #elif defined(ARDUINO_ESP8266_WEMOS_D1MINI)
 #include <WiFi.h>
+const int boardID = 17
 #elif defined(ARDUINO_ESP8266_WEMOS_D1MINIPRO)
 #include <WiFi.h>
+const int boardID = 18
 #elif defined(ARDUINO_ESP8266_WEMOS_D1MINILITE)
 #include <WiFi.h>
+const int boardID = 19
 #elif defined(ARDUINO_WIFINFO)
 #include <WiFi.h>
+const int boardID = 20
 #endif
 
     class SmartKit
